@@ -6,7 +6,10 @@
 //  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "Specta.h"
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
+#import <OHHTTPStubs/OHHTTPStubs.h>
+#import <OCMock/OCMock.h>
 #import "___VARIABLE_testedClass___.h"
 
 
@@ -36,3 +39,4 @@ describe(@"___VARIABLE_testedClass___", ^{
 });
 
 SpecEnd
+
